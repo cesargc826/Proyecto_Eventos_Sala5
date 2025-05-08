@@ -29,5 +29,59 @@
     </article>
       
 
+        <div>
+            <h3> El Infierno </h3>
+            <p><strong> Fecha: </strong> viernes 09 de mayo, 2025 </p>
+            <p><strong> Ubicación: </strong> Ciudad de México </p>
+        </div>
+    </div>
+    
+    <article>
+        <h2>"Correr para vivir" (2024)</h2>
+        <p><strong>Duración:</strong> 1 hora 37 minutos</p>
+        <p><strong>Clasificación:</strong> B15</p>
+        <p><strong>Director:</strong> Gerardo Dorantes</p>
+        <p><strong>Califiación de IMDB:</strong> 7.0/10</p>
+        <p><strong>Fecha de presentación:</strong> 15 de mayo de 2025</p>
+  
+        <section>
+          <h3>Sinopsis</h3>
+          <p>Dos hermanos rarámuri, Homero y Capó, quienes poseen una habilidad excepcional para correr largas distancias, una tradición profundamente arraigada en su cultura. Mientras Homero sueña con convertirse en un corredor de maratón reconocido, Capó se ve envuelto en el mundo del crimen organizado, utilizando su talento para transportar drogas a través de la Sierra Tarahumara. La trama explora los dilemas personales y las decisiones difíciles que enfrentan ambos hermanos, destacando temas como la fraternidad, el honor y la lucha por los sueños en un entorno marcado por la desigualdad y la violencia.
+          </p>
+        </section>
+      </article>
+    
+      <form action="" method="post">
+        <fieldset class="formulario">
+            <legend> Registro de asistencia </legend>
+            Nombre Completo: <input type="text" placeholder="Nombre y Apellidos" required>
+            Correo electronico: <input type="email" placeholder="correo@gmail.com" required>
+            Telefono: <input type="tel" placeholder="5555555555" required>
+            <p>
+                Escoge la película a la que asistirás en la fecha y horario de tu preferencia.
+            </p>
+            <label for="el-infierno"> 
+                <input id="el-infierno" type="radio" name="tipo-de-envio" required> <i>El Infierno</i>
+            </label>
+            <label for="correr-para-vivir">
+                <input id="correr-para-vivir" type="radio" name="tipo-de-envio"> <i>Correr para vivir</i>
+            </label>
+            <label for="y-tu-mama-tambien">
+                <input id="y-tu-mama-tambien" type="radio" name="tipo-de-envio"> <i>Y tu mamá también</i>
+            </label><br>
+            Fecha: <input type="date" name="fecha" min="2025-05-09" max="2025-05-23" required>> <br>
+            Horario:
+            <select>
+                <option value="seleccion" disabled selected>Hora</option>
+                <option value="diecisiente">17:00</option required>
+                <option value="veintiuno">21:00</option required>
+            </select><br>
+            <input type="checkbox" required> Acepto terminos y condiciones
+            <br>
+        </fieldset>
+        <button type="submit">Enviar registro</button>
+    </form>
+
+
 </body>
 </html>
