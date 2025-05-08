@@ -5,12 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Esta paágina te mostrará la cartelera de películas mexicanas"/>
     <meta name="robots" content="index, follow"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title> Películas Mexicanas </title>
 </head>
 
 
 <body>
-    
+  <header class="encabezado">
+    <div class="contenedor contenedor-encabezado">
+      <div class="branding">
+        <a href="" aria-label="Inicio" class="logo">
+          <img
+            src="Recursos/imágenes/logo.png"
+            alt="Logotipo de Nopal Films"
+            width="120"
+          />
+        </a>
+        <h1 class="titulo-principal">NOPAL FILMS</h1>
+      </div>
+  
+      <!-- Esta parte la puse así con la intencion de que sea un menu desplegable -->
+      <nav class="menu-desplegable" aria-label="menu de peliculas">
+        <ul class="menu">
+  
+          <li class="dropdown">
+            <input type="checkbox" id="menu-desplegable-peliculas" hidden>
+            <label for="menu-desplegable-peliculas">Películas ▾</label>
+            <ul class="submenu">
+              <li><a href="#el-infierno">El Infierno</a></li>
+              <li><a href="#correr-para-vivir">Correr para vivir</a></li>
+              <li><a href="#y-tu-mama-tambien">Y tú mamá tambien</a></li>
+            </ul>
+          </li>
+  
+          <li><a href="#cartelera">Cartelera</a></li>
+        </ul>
+      </nav>
+      <!--Esta la puse asi para que mustre logos de redes sociales que obvio no existen-->
+      <nav class="social-nav" aria-label="Redes sociales">
+        <ul class="social-links">
+          <li><a href="https://facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="https://twitter.com" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+      </nav>
+
+  </header>
+
   <article class="pelicula">
     <h2 class="pelicula_titulo">"El Infierno"</h2>
     <img src="./Recursos/imágenes/El_Infierno.jpg" alt="Ícono película" class="evento-icono">
@@ -110,5 +151,13 @@
     </section>
 </article>
 
+<footer>
+  <div class="contenedor-footer">
+    <p>&copy; 2025 NOPAL FILMS. Todos los derechos reservados.</p>
+    <address>
+      Contacto: <a href="mailto:info@nopalfilms.mx">info@nopalfilms.mx</a>
+    </address>
+  </div>
+</footer>
 </body>
 </html>
