@@ -33,7 +33,37 @@
           </p>
         </section>
       </article>
-      
+    
+      <form action="" method="post">
+        <fieldset class="formulario">
+            <legend> Registro de asistencia </legend>
+            Nombre Completo: <input type="text" placeholder="Nombre y Apellidos" required>
+            Correo electronico: <input type="email" placeholder="correo@gmail.com" required>
+            Telefono: <input type="tel" placeholder="5555555555" required>
+            <p>
+                Escoge la película a la que asistirás en la fecha y horario de tu preferencia.
+            </p>
+            <label for="el-infierno"> 
+                <input id="el-infierno" type="radio" name="tipo-de-envio" required> <i>El Infierno</i>
+            </label>
+            <label for="correr-para-vivir">
+                <input id="correr-para-vivir" type="radio" name="tipo-de-envio"> <i>Correr para vivir</i>
+            </label>
+            <label for="y-tu-mama-tambien">
+                <input id="y-tu-mama-tambien" type="radio" name="tipo-de-envio"> <i>Y tu mamá también</i>
+            </label><br>
+            Fecha: <input type="date" name="fecha" min="2025-05-09" max="2025-05-23" required>> <br>
+            Horario:
+            <select name="el-infierno" id="">
+                <option value="seleccion" disabled selected>Hora</option>
+                <option value="diecisiente">17:00</option required>
+                <option value="veintiuno">21:00</option required>
+            </select><br>
+            <input type="checkbox" required> Acepto terminos y condiciones
+            <br>
+        </fieldset>
+        <button type="submit">Enviar registro</button>
+    </form>
 
 </body>
 </html>
