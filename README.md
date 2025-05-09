@@ -13,6 +13,7 @@ Para reforzar el estilo visual y la temática cultural, se utilizó una paleta d
  <img alt="paleta de colores" src="recursos/imágenes/explicacion-pagina.png">
 </picture>
 
+![Paleta de colores](Recursos/imágenes/explicacion-pagina.png)
 
 Estos elementos contribuyen a una estética coherente y llamativa, evocando el ambiente del cine mexicano con un toque moderno.
 
