@@ -10,7 +10,7 @@ Para reforzar el estilo visual y la temática cultural, se utilizó una paleta d
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
  <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="paleta de colores" src="recursos/imágenes/explicacion-pagina.png">
+ <img alt="" src="recursos/imágenes/explicacion-pagina.png">
 </picture>
 
 ![Paleta de colores](Recursos/imágenes/explicacion-pagina.png)
@@ -36,12 +36,12 @@ cd repositorio
 Luego abre el archivo index.html en tu navegador.
 
 👥 Autores
-Andrea Eunice Aguirre López
-César Daniel Godínez Caudillo
-Diana Teresa Ortiz Vargas
-Abril Armenta Peña
-Mariana Encarnación Calzada
-Jenipher Andrea Mares de la Torre
+- Andrea Eunice Aguirre López  
+- César Daniel Godínez Caudillo  
+- Diana Teresa Ortiz Vargas  
+- Abril Armenta Peña  
+- Mariana Encarnación Calzada  
+- Jenipher Andrea Mares de la Torre
 
 
 📄 Licencia
