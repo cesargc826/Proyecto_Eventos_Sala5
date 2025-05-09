@@ -7,7 +7,11 @@ Se aplicaron tecnologías web básicas (HTML y CSS) para estructurar y diseñar 
 
 Para reforzar el estilo visual y la temática cultural, se utilizó una paleta de colores inspirada en elementos tradicionales mexicanos:
 
-![Paleta de colores](recursos/imágenes/explicacion-pagina.png)
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
+ <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
+ <img alt="paleta de colores" src="recursos/imágenes/explicacion-pagina.png">
+</picture>
 
 
 Estos elementos contribuyen a una estética coherente y llamativa, evocando el ambiente del cine mexicano con un toque moderno.
